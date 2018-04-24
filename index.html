@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>fds-rgb-challenge</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">The great <br>RGB<br> guessing challenge</div>
+        <div class="main">
+            <div class="score"></div>
+            <div class="color-code"></div>
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="modal right">
+                <p class="rightText">THAT'S RIGHT</p>
+                <button class="close">NEXT COLOR</button>
+            </div>
+            <div class="modal wrong">
+                <span class="wrongText">
+                    <p>TOO BAD</p>
+                    <p class="wrongScore"></p>
+                </span>
+                <button class="reset">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
